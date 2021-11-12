@@ -7,11 +7,16 @@ using System.Web.UI.WebControls;
 
 namespace DigitalMarketing
 {
-    public partial class Photos : System.Web.UI.Page
+    public partial class ForgotPassword : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
 
+        }
+
+        protected void btnSignIn_Click(object sender, EventArgs e)
+        {
+            Label1.Text = "A Confirmation Link Has Been Sent To " + TextBox1.Text;
         }
     }
 }

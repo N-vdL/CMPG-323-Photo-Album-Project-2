@@ -1,0 +1,109 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    background-image: url('digital marketing2.jpeg');
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+.registerbox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 600px;
+    padding: 80px 40px;
+    box-sizing: border-box;
+}
+
+.photobox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1000px;
+    height: 1000px;
+    padding: 80px 40px;
+    box-sizing: border-box;
+}
+
+.loginbox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 400px;
+    padding: 80px 40px;
+    box-sizing: border-box;
+}
+
+.user {
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    top: -33px;
+    left: 205px;
+    position: absolute;
+}
+
+h2 {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    color: dodgerblue;
+    font-size: 48px;
+}
+
+.lblEmail, .lblPassword, .lblFirst, .lblLast, .lblConfirm, .lblConfirmEmail, .lblOutput {
+    font-weight: bold;
+    font-size: 28px;
+    color: lightskyblue;
+}
+
+.txtEmail, .txtPassword, .btnSubmit, .txtFirst, .txtLast, .txtConfirm, .txtConfirmEmail {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.txtEmail, .txtPassword, .txtFirst, .txtLast, .txtConfirm, .txtConfirmEmail {
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 20px;
+    background-color: transparent;
+}
+
+::placeholder {
+    color: slategrey;
+}
+
+.btnSubmit {
+    border: none;
+    outline: none;
+    height: 40px;
+    font-size: 16px;
+    color: #fff;
+    background-color: dodgerblue;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: .3s ease-in-out;
+}
+
+.btnSubmit:hover, .btnCreate:hover {
+    background-color: lightskyblue;
+}
+
+.hypForgot, .hypAccount{
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #fff;
+}
+
+.hypForgot:hover, .hypAccount:hover {
+    text-decoration: underline;
+}
