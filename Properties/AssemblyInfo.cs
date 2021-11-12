@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("DMS_Project")]
+[assembly: AssemblyTitle("DigitalMarketing")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("DMS_Project")]
+[assembly: AssemblyProduct("DigitalMarketing")]
 [assembly: AssemblyCopyright("Copyright ©  2021")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("090a9313-cbda-4c53-9d33-734d243262e4")]
+[assembly: Guid("991b6589-9ad9-43b0-8fe0-8e61b91f5273")]
 
 // Version information for an assembly consists of the following four values:
 //
