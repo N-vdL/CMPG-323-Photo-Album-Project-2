@@ -11,8 +11,8 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 400px;
-    height: 600px;
+    width: 600px;
+    height: 800px;
     padding: 80px 40px;
     box-sizing: border-box;
 }
@@ -22,8 +22,8 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 1000px;
-    height: 1000px;
+    width: 800px;
+    height: 800px;
     padding: 80px 40px;
     box-sizing: border-box;
 }
@@ -34,7 +34,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     width: 400px;
-    height: 400px;
+    height: 500px;
     padding: 80px 40px;
     box-sizing: border-box;
 }
@@ -59,7 +59,7 @@ h2 {
 .lblEmail, .lblPassword, .lblFirst, .lblLast, .lblConfirm, .lblConfirmEmail, .lblOutput {
     font-weight: bold;
     font-size: 28px;
-    color: lightskyblue;
+    color: royalblue;
 }
 
 .txtEmail, .txtPassword, .btnSubmit, .txtFirst, .txtLast, .txtConfirm, .txtConfirmEmail {
@@ -86,7 +86,7 @@ h2 {
     outline: none;
     height: 40px;
     font-size: 16px;
-    color: #fff;
+    color: black;
     background-color: dodgerblue;
     cursor: pointer;
     border-radius: 20px;
@@ -98,7 +98,7 @@ h2 {
 }
 
 .hypForgot, .hypAccount{
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 700;
     text-decoration: none;
     color: #fff;

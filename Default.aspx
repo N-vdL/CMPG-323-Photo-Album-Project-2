@@ -20,7 +20,7 @@
             <asp:HyperLink ID="HyperLink1" CssClass="hypForgot" NavigateUrl="ForgotPassword.aspx" runat="server">Forgot Password?</asp:HyperLink>
             <br />
             <br />
-            <asp:HyperLink ID="HyperLink2" CssClass="hypAccount" NavigateUrl="Register.aspx" runat="server">Don't Have An Account?</asp:HyperLink>
+            <asp:HyperLink ID="HyperLink2" CssClass="hypAccount" NavigateUrl="Register.aspx" runat="server">Don't Have An Account? Register Here!</asp:HyperLink>
         </form>
     </div>
 </body>

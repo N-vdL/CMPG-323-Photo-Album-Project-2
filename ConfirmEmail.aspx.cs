@@ -7,18 +7,23 @@ using System.Web.UI.WebControls;
 
 namespace DigitalMarketing
 {
-    public partial class Register : System.Web.UI.Page
+    public partial class ConfirmEmail : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
 
         }
 
-        protected void btnCreate_Click(object sender, EventArgs e)
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            Label1.Text = "Congratulations! Your Account Has Been Verified.";
+        }
+
+        protected void Button2_Click(object sender, EventArgs e)
         {
             try
             {
-                Response.Redirect("~/ConfirmEmail.aspx");
+                Response.Redirect("~/Default.aspx");
             }
 
             catch (Exception ex)
