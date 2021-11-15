@@ -67,7 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="ConfirmEmail.aspx" />
+    <Content Include="VerifyAccount.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="digital marketing2.jpeg" />
     <Content Include="ForgotPassword.aspx" />
@@ -79,15 +79,16 @@
     <Content Include="register.png" />
     <Content Include="style.css" />
     <Content Include="user5.png" />
+    <Content Include="VerifyPassword.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ConfirmEmail.aspx.cs">
-      <DependentUpon>ConfirmEmail.aspx</DependentUpon>
+    <Compile Include="VerifyAccount.aspx.cs">
+      <DependentUpon>VerifyAccount.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="ConfirmEmail.aspx.designer.cs">
-      <DependentUpon>ConfirmEmail.aspx</DependentUpon>
+    <Compile Include="VerifyAccount.aspx.designer.cs">
+      <DependentUpon>VerifyAccount.aspx</DependentUpon>
     </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
@@ -124,6 +125,13 @@
     </Compile>
     <Compile Include="Register.aspx.designer.cs">
       <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="VerifyPassword.aspx.cs">
+      <DependentUpon>VerifyPassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="VerifyPassword.aspx.designer.cs">
+      <DependentUpon>VerifyPassword.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

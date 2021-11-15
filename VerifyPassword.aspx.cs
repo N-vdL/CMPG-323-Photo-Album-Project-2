@@ -7,18 +7,23 @@ using System.Web.UI.WebControls;
 
 namespace DigitalMarketing
 {
-    public partial class ForgotPassword : System.Web.UI.Page
+    public partial class VerifyPassword : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            
+
         }
 
-        protected void btnSignIn_Click(object sender, EventArgs e)
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            Label1.Text = "The Password Has Been Successfully Confirmed";
+        }
+
+        protected void Button2_Click(object sender, EventArgs e)
         {
             try
             {
-                Response.Redirect("~/VerifyPassword.aspx");
+                Response.Redirect("~/Default.aspx");
             }
 
             catch (Exception ex)

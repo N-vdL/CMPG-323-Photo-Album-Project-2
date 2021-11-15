@@ -17,7 +17,6 @@
             <asp:Label Text="Confirm Email: " CssClass="lblConfirmEmail" runat="server" />
             <asp:TextBox runat="server" CssClass="txtConfirmEmail" placeholder="Confirm Email" ID="TextBox6" />
             <asp:Button Text="Send Link" CssClass="btnSubmit" runat="server" ID="btnSignIn" OnClick="btnSignIn_Click" />
-            <asp:Label ID="Label1" Text="" CssClass="lblOutput" runat="server" Visible="True"></asp:Label>
             <br />
             <br />
             <asp:HyperLink ID="HyperLink1" CssClass="hypForgot" NavigateUrl="Default.aspx" runat="server">Back To Login Page</asp:HyperLink>

@@ -18,7 +18,7 @@ namespace DigitalMarketing
         {
             try
             {
-                Response.Redirect("~/ConfirmEmail.aspx");
+                Response.Redirect("~/VerifyAccount.aspx");
             }
 
             catch (Exception ex)

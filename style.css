@@ -58,7 +58,7 @@ h2 {
 
 .lblEmail, .lblPassword, .lblFirst, .lblLast, .lblConfirm, .lblConfirmEmail, .lblOutput {
     font-weight: bold;
-    font-size: 28px;
+    font-size: 20px;
     color: royalblue;
 }
 
@@ -73,7 +73,7 @@ h2 {
     outline: none;
     height: 40px;
     color: #fff;
-    font-size: 20px;
+    font-size: 16px;
     background-color: transparent;
 }
 
