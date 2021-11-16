@@ -11,8 +11,8 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 600px;
-    height: 800px;
+    width: 500px;
+    height: 500px;
     padding: 80px 40px;
     box-sizing: border-box;
 }
@@ -22,7 +22,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 800px;
+    width: 500px;
     height: 800px;
     padding: 80px 40px;
     box-sizing: border-box;
@@ -48,18 +48,33 @@
     position: absolute;
 }
 
+.gallery {
+    width: 160px;
+    height: 140px;
+    overflow: hidden;
+    top: -50px;
+    left: 205px;
+    position: inherit;
+}
+
 h2 {
     padding: 0;
     margin: 0;
     text-align: center;
     color: dodgerblue;
-    font-size: 48px;
+    font-size: 40px;
 }
 
 .lblEmail, .lblPassword, .lblFirst, .lblLast, .lblConfirm, .lblConfirmEmail, .lblOutput {
     font-weight: bold;
     font-size: 20px;
     color: royalblue;
+}
+
+.lblMessage {
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
 }
 
 .txtEmail, .txtPassword, .btnSubmit, .txtFirst, .txtLast, .txtConfirm, .txtConfirmEmail {

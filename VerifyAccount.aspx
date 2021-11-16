@@ -7,7 +7,7 @@
     <title></title>
     <link href="style.css" rel="stylesheet" />
 </head>
-<body>
+<body style="font-family: Arial" >
     <div class="registerbox">
         <form id="form1" runat="server">
             <h2>VERIFICATION OF EMAIL<img src="register.png" alt="Alternate Text" class="user" /></h2>
@@ -24,7 +24,7 @@
             <br />
             <br />
             <br />
-            <asp:Label ID="Label1" CssClass="lblFirst" runat="server" Text="Label"></asp:Label>
+            <asp:Label ID="Label1" CssClass="lblFirst" runat="server" Text="Label" BackColor="White"></asp:Label>
             <br />
             <br />
             <br />
